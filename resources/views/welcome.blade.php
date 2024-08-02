@@ -10,7 +10,7 @@
                 <div class="card-body">
                     Selamat Datang @guest
                         @else
-                        <b>{{Auth::use()-user}}</b>
+                        <b>{{Auth::user()->user}}</b>
                     @endguest
                 </div>
             </div>
